@@ -1,0 +1,18 @@
+
+autodetach on
+startup_message off
+
+
+hardstatus alwayslastline "[ session ] %{-} %-Lw%{kc}%n%f %t%{-}%+Lw %=%{kG}%C%A  %D, %M/%d/%Y "
+#hardstatus alwayslastline "%{ky}%D %M %d %c %{-} %-Lw%{kc}%n%f %t%{-}%+Lw"
+caption always "%h"
+
+
+defscrollback 10000
+msgwait 1
+
+# Start a few screen windows
+#screen -t vw       1   
+#screen -t module   2   
+#screen -t stereo   3   
+screen -t local    0
